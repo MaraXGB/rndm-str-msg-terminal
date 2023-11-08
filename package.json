@@ -1,0 +1,32 @@
+{
+  "name": "rndm-str-msg-terminal",
+  "version": "1.0.0",
+  "description": "app for random messages in console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaraXGB/rndm-str-msg-terminal.git"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "npm"
+  ],
+  "author": "edmara guerrero <edxilcoil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaraXGB/rndm-str-msg-terminal/issues"
+  },
+  "homepage": "https://github.com/MaraXGB/rndm-str-msg-terminal#readme",
+  "bin": {
+    "random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1",
+    "user": "^0.0.0"
+  }
+}
